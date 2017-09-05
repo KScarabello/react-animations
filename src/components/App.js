@@ -29,14 +29,14 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.props.showMenu)
     return (
-      <div className="container-fluid">
+      <div className="container-fluid home_contianer">
         <Header
           loading={this.props.loading}
           openMobileMenu={this.openMobileMenu}
         />
-        <Transition
+      {
+         <Transition
           component={false} // don't use a wrapping component
           enter={{
             opacity: 1,
@@ -53,6 +53,7 @@ class App extends React.Component {
           </div>
           }
         </Transition>
+      }
         {this.props.children}
       </div>
     );

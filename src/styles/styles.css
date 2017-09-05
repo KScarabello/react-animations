@@ -12,3 +12,26 @@ a.active {
 nav {
   padding-top: 20px;
 }
+/*
+.home_contianer {
+  animation: fadeInOut 5.35s ease-in-out ;
+}*/
+
+/*@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    background: lightblue;
+    transform: translateY(100%);
+  }
+
+  50% {
+    opacity: 1;
+    background: black;
+    transform: translateY(-10%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+}*/
